@@ -172,20 +172,28 @@
   .productsImgs {
     width: 100%;
   }
-  .productDetails{
+  .productDetails {
     width: 100%;
     text-align: center;
     margin-top: 20px;
 
-    p{
+    p {
       text-align: center;
     }
   }
-  .productActions{
+  .productActions {
     flex-direction: column;
     align-items: center;
   }
-  .price{
+  .price {
     justify-content: center;
+  }
+  .overlay {
+    div {
+      width: 100%;
+      img {
+        width: 50%;
+      }
+    }
   }
 }
