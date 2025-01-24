@@ -1,0 +1,32 @@
+.sidebar {
+  width: 200px;
+  padding: 30px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  background: white;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  left: 0;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    a {
+      text-decoration: none;
+      color: rgb(148, 148, 148);
+      transition: 300ms;
+    }
+
+    a:hover {
+      border-bottom: 4px solid orange;
+      color: black;
+    }
+  }
+}
