@@ -24,7 +24,7 @@ const Navbar = ({ addToCart, count, setAddToCart, listBtn }) => {
             />
           </svg>
         </button>
-        <img src="/assets/images/image-avatar.png" alt="avatar" />
+        <img src="./assets/images/image-avatar.png" alt="avatar" />
         {listBtn}
       </div>
       <div

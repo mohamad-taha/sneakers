@@ -9,19 +9,19 @@ const Products = ({ product, setAddToCart, count, setCount }) => {
   const productGallery = [
     {
       id: 0,
-      img: "/assets/images/image-product-1.jpg",
+      img: "./assets/images/image-product-1.jpg",
     },
     {
       id: 1,
-      img: "/assets/images/image-product-2.jpg",
+      img: "./assets/images/image-product-2.jpg",
     },
     {
       id: 2,
-      img: "/assets/images/image-product-3.jpg",
+      img: "./assets/images/image-product-3.jpg",
     },
     {
       id: 3,
-      img: "/assets/images/image-product-4.jpg",
+      img: "./assets/images/image-product-4.jpg",
     },
   ];
 
