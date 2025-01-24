@@ -70,7 +70,7 @@ const Products = ({ product, setAddToCart, count, setCount }) => {
     <div className="productsContainer">
       <div className="productsImgs">
         <div className="productImg">
-          <img src={product.img} alt="product image" />
+          <img src="./assets/images/image-product-1.jpg" alt="product image" />
         </div>
         <div className="productsGallery">
           {productGallery.map((file) => (
