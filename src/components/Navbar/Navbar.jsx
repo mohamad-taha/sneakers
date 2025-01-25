@@ -46,7 +46,7 @@ const Navbar = ({ addToCart, count, setAddToCart, listBtn }) => {
               </p>
             </div>
             <button onClick={() => setAddToCart([])}>
-              <img src="/assets/images/icon-delete.svg" alt="delete icon" />
+              <img src="./assets/images/icon-delete.svg" alt="delete icon" />
             </button>
           </div>
         ) : (

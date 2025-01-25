@@ -11,7 +11,7 @@ const App = () => {
   const [addToCart, setAddToCart] = useState([]);
   const product = {
     price: 125,
-    img: "/assets/images/image-product-1.jpg",
+    img: "./assets/images/image-product-1.jpg",
     name: "Fall Limited Edition Sneakers",
   };
   return (
